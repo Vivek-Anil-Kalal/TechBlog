@@ -31,13 +31,12 @@
 
     %>
 
-    <div class="col-md-6 mt-2" >
+    <div class="col-md-6 mt-2 d-flex align-items-stretch" >
         <div class="card">
             <img class="card-img-top" src="blog_posts/<%= post.getpPic()%>" alt="Card image cap">
             <div class="card-body">
                 <b><%= post.getpTitle()%></b>
                 <p> <%= post.getpContent()%></p>
-                <!--<pre> <%= post.getpCode()%></pre>-->
             </div>
             <%
                 LikeDao ld = new LikeDao(ConnectionProvider.getDbConnection());

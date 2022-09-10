@@ -20,6 +20,9 @@
             .banner-background{
                 clip-path: polygon(50% 0%, 84% 0, 100% 0, 100% 94%, 78% 90%, 50% 100%, 24% 96%, 0 100%, 0 0, 17% 0);
             }
+            body{
+                background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+            }
         </style>
 
         <title>Home</title>
