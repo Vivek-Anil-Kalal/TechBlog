@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="css/stylesheet.css" />
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+        
         <style>
             .banner-background{
                 clip-path: polygon(50% 0%, 84% 0, 100% 0, 100% 94%, 78% 90%, 50% 100%, 24% 96%, 0 100%, 0 0, 17% 0);

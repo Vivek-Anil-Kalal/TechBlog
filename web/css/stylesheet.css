@@ -1,3 +1,7 @@
 .primary-background{
     background: #3d5afe !important;
 }
+
+.nav-margin{
+    margin-top: -25px; 
+}

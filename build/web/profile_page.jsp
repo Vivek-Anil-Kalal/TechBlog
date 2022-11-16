@@ -1,4 +1,4 @@
-<%@page import="java.util.ArrayList"%>
+q<%@page import="java.util.ArrayList"%>
 <%@page import="com.tech.blog.entities.Category"%>
 <%@page import="com.tech.blog.helper.ConnectionProvider"%>
 <%@page import="com.tech.blog.dao.PostDao"%>
@@ -56,10 +56,8 @@
 
     </head>
     <body>
-
-
         <!-- NavBar --> 
-        <nav class="navbar navbar-expand-lg navbar-dark primary-background">
+        <nav class="navbar navbar-expand-lg navbar-dark primary-background nav-margin">
             <a class="navbar-brand" href="index.jsp"> <span class="fa fa-cubes"></span> TechBlog</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -376,7 +374,7 @@
                 $('#add-post-form').on('submit', function (event) {
                     // this code is called when form is submitted...
                     event.preventDefault();  // is se syncronous behaviour ruk jata h form k submit hone ka
-                    console.log("You've click on submit...")
+                    console.log("You've click on submit...");
                     let form = new FormData(this);   // this Form object can store information of form...
 
                     // sending form through ajax ... 
@@ -390,6 +388,7 @@
                             console.log(data);
                             if (data.trim() === 'Done') {
                                 swal("Good job!", "Post uploaded Successfully", "success");
+//                                $('#add-post-modal').modal('hide');
                             } else {
                                 swal("Error!!", "Something went Wrong", "error");
                             }
@@ -436,7 +435,7 @@
             }
 
             $(document).ready(function () {
-                let allPostRef = $('.c-link')[0] // iska mtlb sare element jinka class c-link h usme se first element ko grab karo
+                let allPostRef = $('.c-link')[0]; // iska mtlb sare element jinka class c-link h usme se first element ko grab karo
                 getPosts(0, allPostRef);
             });
         </script>

@@ -5,9 +5,15 @@
         <group>
             <file>file:/D:/Development/Adv.%20Java/JSP%20Servelets/Projects/TechBlog_Updated/web/show_blog_page.jsp</file>
             <file>file:/D:/Development/Adv.%20Java/JSP%20Servelets/Projects/TechBlog_Updated/web/load_posts.jsp</file>
+            <file>file:/D:/Development/Adv.%20Java/JSP%20Servelets/Projects/TechBlog_Updated/src/java/com/tech/blog/servlets/AddPostServlet.java</file>
+            <file>file:/D:/Development/Adv.%20Java/JSP%20Servelets/Projects/TechBlog_Updated/web/profile_page.jsp</file>
+            <file>file:/D:/Development/Adv.%20Java/JSP%20Servelets/Projects/TechBlog_Updated/src/java/com/tech/blog/servlets/EditServlet.java</file>
             <file>file:/D:/Development/Adv.%20Java/JSP%20Servelets/Projects/TechBlog_Updated/src/java/com/tech/blog/dao/PostDao.java</file>
             <file>file:/D:/Development/Adv.%20Java/JSP%20Servelets/Projects/TechBlog_Updated/web/register_page.jsp</file>
+            <file>file:/D:/Development/Adv.%20Java/JSP%20Servelets/Projects/TechBlog_Updated/web/normal_navbar.jsp</file>
             <file>file:/D:/Development/Adv.%20Java/JSP%20Servelets/Projects/TechBlog_Updated/web/index.jsp</file>
+            <file>file:/D:/Development/Adv.%20Java/JSP%20Servelets/Projects/TechBlog_Updated/web/error_page.jsp</file>
+            <file>file:/D:/Development/Adv.%20Java/JSP%20Servelets/Projects/TechBlog_Updated/web/login_page.jsp</file>
         </group>
     </open-files>
 </project-private>
