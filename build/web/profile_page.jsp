@@ -63,6 +63,10 @@ q<%@page import="java.util.ArrayList"%>
                 <span class="navbar-toggler-icon"></span>
             </button>
 
+<!--            <button class="navbar navbar-expand-lg navbar-dark primary-background nav-margin">
+                <a class="navbar-brand" href="index.jpg"><span class="fa fa-cubes"> TechBlog</a>
+            </button>
+-->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
