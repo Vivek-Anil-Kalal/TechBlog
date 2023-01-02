@@ -65,7 +65,7 @@ q<%@page import="java.util.ArrayList"%>
 
 <!--            <button class="navbar navbar-expand-lg navbar-dark primary-background nav-margin">
                 <a class="navbar-brand" href="index.jpg"><span class="fa fa-cubes"> TechBlog</a>
-            </button>
+            </button> hellow world
 -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
